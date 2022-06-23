@@ -1,0 +1,6 @@
+﻿  funkcjeSDL.cpp
+C:\Users\igors\source\repos\f2950f29-gr31-repo\projekt\Vigenere_projekt\Vigenere++\Vigenere++\funkcjeSDL.cpp(12,117): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\igors\source\repos\f2950f29-gr31-repo\projekt\Vigenere_projekt\Vigenere++\Vigenere++\funkcjeSDL.cpp(29,117): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\igors\source\repos\f2950f29-gr31-repo\projekt\Vigenere_projekt\Vigenere++\Vigenere++\funkcjeSDL.cpp(30,57): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\igors\source\repos\f2950f29-gr31-repo\projekt\Vigenere_projekt\Vigenere++\Vigenere++\funkcjeSDL.cpp(157,2): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  Vigenere++.vcxproj -> C:\Users\igors\source\repos\f2950f29-gr31-repo\projekt\Vigenere_projekt\Vigenere++\x64\Debug\Vigenere++.exe

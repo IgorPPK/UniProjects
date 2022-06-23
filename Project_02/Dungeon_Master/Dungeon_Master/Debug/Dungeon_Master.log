@@ -1,0 +1,4 @@
+﻿  Enemy.cpp
+C:\Users\igors\source\repos\0c3c8580-gr24-repo\Projekt\Dungeon Master\Dungeon_Master\Dungeon_Master\Enemy.h(2,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\igors\source\repos\0c3c8580-gr24-repo\Projekt\Dungeon Master\Dungeon_Master\Dungeon_Master\Enemy.cpp(8,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Dungeon_Master.vcxproj -> C:\Users\igors\source\repos\0c3c8580-gr24-repo\Projekt\Dungeon Master\Dungeon_Master\Debug\Dungeon_Master.exe

@@ -1,0 +1,57 @@
+\begin{theindex}
+
+  \item {deszyfruj}
+    \subitem {SDL.h}, \hyperpage{5}
+
+  \indexspace
+
+  \item {lamanie}
+    \subitem {SDL.h}, \hyperpage{6}
+
+  \indexspace
+
+  \item {przetwarzania.h}
+    \subitem {zapisz\_plik}, \hyperpage{4}
+
+  \indexspace
+
+  \item {rozmiar\_klucza}
+    \subitem {SDL.h}, \hyperpage{6}
+
+  \indexspace
+
+  \item {SDL.h}
+    \subitem {deszyfruj}, \hyperpage{5}
+    \subitem {lamanie}, \hyperpage{6}
+    \subitem {rozmiar\_klucza}, \hyperpage{6}
+    \subitem {szyfruj}, \hyperpage{6}
+  \item {sprawdz.h}
+    \subitem {sprawdzParametry}, \hyperpage{8}
+    \subitem {sprawdzPliki}, \hyperpage{9}
+  \item {sprawdzParametry}
+    \subitem {sprawdz.h}, \hyperpage{8}
+  \item {sprawdzPliki}
+    \subitem {sprawdz.h}, \hyperpage{9}
+  \item {szyfruj}
+    \subitem {SDL.h}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Vigenere++/przetwarzania.h}, \hyperpage{3, 4}
+  \item {Vigenere++/SDL.h}, \hyperpage{4}, \hyperpage{7}
+  \item {Vigenere++/sprawdz.h}, \hyperpage{7}, \hyperpage{9}
+  \item {Vigenere++/widok.h}, \hyperpage{10, 11}
+
+  \indexspace
+
+  \item {widok.h}
+    \subitem {wyswietl}, \hyperpage{10}
+  \item {wyswietl}
+    \subitem {widok.h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {zapisz\_plik}
+    \subitem {przetwarzania.h}, \hyperpage{4}
+
+\end{theindex}

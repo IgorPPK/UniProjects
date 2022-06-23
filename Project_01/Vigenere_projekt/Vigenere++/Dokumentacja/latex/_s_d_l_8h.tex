@@ -1,0 +1,115 @@
+\hypertarget{_s_d_l_8h}{}\doxysection{Vigenere++/\+SDL.h File Reference}
+\label{_s_d_l_8h}\index{Vigenere++/SDL.h@{Vigenere++/SDL.h}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$limits$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+Include dependency graph for SDL.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_s_d_l_8h__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_s_d_l_8h_a5521c2a0a216cc6b76954faecc904dc2}{szyfruj}} (std\+::vector$<$ std\+::string $>$ \&wejsciowy, std\+::vector$<$ std\+::string $>$ \&wyjsciowy, std\+::string \&klucz, std\+::string \&alfabet)
+\begin{DoxyCompactList}\small\item\em Funkcja szyfruje do pliku wyjsciowego plik wejsciowy przy pomocy pliku z kluczem. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_s_d_l_8h_a317e26fc3f77893bfc992c8184b13d1b}{deszyfruj}} (std\+::vector$<$ std\+::string $>$ \&wejsciowy, std\+::vector$<$ std\+::string $>$ \&wyjsciowy, std\+::string \&klucz, std\+::string \&alfabet)
+\begin{DoxyCompactList}\small\item\em Funkcja deszyfruje do pliku wyjsciowego plik wejsciowy przy pomocy pliku z kluczem. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{_s_d_l_8h_a69dd14124afb2af8f04f79698bb0962a}{lamanie}} (std\+::vector$<$ std\+::string $>$ \&wejscie, int \&dlugosc\+\_\+klucza, std\+::string alfabet)
+\begin{DoxyCompactList}\small\item\em Funkcja zwraca litery kazdej pozycji klucza, czyli caly klucz. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{_s_d_l_8h_a66c89f2ff5f3f201c42237e300e97dbd}{rozmiar\+\_\+klucza}} (std\+::vector$<$ std\+::string $>$ \&wejscie)
+\begin{DoxyCompactList}\small\item\em Funkcja zwraca ilosc znakow w kluczu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{_s_d_l_8h}{SDL.\+h}} 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_s_d_l_8h_a317e26fc3f77893bfc992c8184b13d1b}\label{_s_d_l_8h_a317e26fc3f77893bfc992c8184b13d1b}} 
+\index{SDL.h@{SDL.h}!deszyfruj@{deszyfruj}}
+\index{deszyfruj@{deszyfruj}!SDL.h@{SDL.h}}
+\doxysubsubsection{\texorpdfstring{deszyfruj()}{deszyfruj()}}
+{\footnotesize\ttfamily void deszyfruj (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{wejsciowy,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{wyjsciowy,  }\item[{std\+::string \&}]{klucz,  }\item[{std\+::string \&}]{alfabet }\end{DoxyParamCaption})}
+
+
+
+Funkcja deszyfruje do pliku wyjsciowego plik wejsciowy przy pomocy pliku z kluczem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wejsciowy} & -\/ wektor wejsciowy zaszyfrowany. \\
+\hline
+{\em wyjsciowy} & -\/ wektor wyjsciowy odszyfrowany. \\
+\hline
+{\em klucz} & -\/ plik z kluczem. \\
+\hline
+{\em alfabet} & -\/ zmienna typu string, ktora zawiera angielski alfabet. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_s_d_l_8h_a69dd14124afb2af8f04f79698bb0962a}\label{_s_d_l_8h_a69dd14124afb2af8f04f79698bb0962a}} 
+\index{SDL.h@{SDL.h}!lamanie@{lamanie}}
+\index{lamanie@{lamanie}!SDL.h@{SDL.h}}
+\doxysubsubsection{\texorpdfstring{lamanie()}{lamanie()}}
+{\footnotesize\ttfamily std\+::string lamanie (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{wejscie,  }\item[{int \&}]{dlugosc\+\_\+klucza,  }\item[{std\+::string}]{alfabet }\end{DoxyParamCaption})}
+
+
+
+Funkcja zwraca litery kazdej pozycji klucza, czyli caly klucz. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wejsciowy} & -\/ wektor wejsciowy zaszyfrowany. \\
+\hline
+{\em dlugosc\+\_\+klucza} & -\/ zawiera informacje o ilosci liter w kluczu. \\
+\hline
+{\em alfabet} & -\/ zmienna typu string, ktora zawiera angielski alfabet. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+lamanie -\/zwraca klucz z poprawnymi literami. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_s_d_l_8h_a66c89f2ff5f3f201c42237e300e97dbd}\label{_s_d_l_8h_a66c89f2ff5f3f201c42237e300e97dbd}} 
+\index{SDL.h@{SDL.h}!rozmiar\_klucza@{rozmiar\_klucza}}
+\index{rozmiar\_klucza@{rozmiar\_klucza}!SDL.h@{SDL.h}}
+\doxysubsubsection{\texorpdfstring{rozmiar\_klucza()}{rozmiar\_klucza()}}
+{\footnotesize\ttfamily int rozmiar\+\_\+klucza (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{wejscie }\end{DoxyParamCaption})}
+
+
+
+Funkcja zwraca ilosc znakow w kluczu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wejscie} & -\/ wektor wejsciowy zaszyfrowany. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_s_d_l_8h_a5521c2a0a216cc6b76954faecc904dc2}\label{_s_d_l_8h_a5521c2a0a216cc6b76954faecc904dc2}} 
+\index{SDL.h@{SDL.h}!szyfruj@{szyfruj}}
+\index{szyfruj@{szyfruj}!SDL.h@{SDL.h}}
+\doxysubsubsection{\texorpdfstring{szyfruj()}{szyfruj()}}
+{\footnotesize\ttfamily void szyfruj (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::string $>$ \&}]{wejsciowy,  }\item[{std\+::vector$<$ std\+::string $>$ \&}]{wyjsciowy,  }\item[{std\+::string \&}]{klucz,  }\item[{std\+::string \&}]{alfabet }\end{DoxyParamCaption})}
+
+
+
+Funkcja szyfruje do pliku wyjsciowego plik wejsciowy przy pomocy pliku z kluczem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em wejsciowy} & -\/ wektor wejsciowy jawny. \\
+\hline
+{\em wyjsciowy} & -\/ wektor wyjsciowy zaszyforwany. \\
+\hline
+{\em klucz} & -\/ plik z kluczem. \\
+\hline
+{\em alfabet} & -\/ zmienna typu string, ktora zawiera angielski alfabet. \\
+\hline
+\end{DoxyParams}

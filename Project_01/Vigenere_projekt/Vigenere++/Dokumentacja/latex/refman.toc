@@ -1,0 +1,29 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}File Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}File List}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}File Documentation}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Vigenere++/przetwarzania.h File Reference}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Detailed Description}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Function Documentation}{4}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}zapisz\_plik()}{4}{subsubsection.2.1.2.1}%
+\contentsline {section}{\numberline {2.2}przetwarzania.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Vigenere++/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}SDL.h File Reference}{4}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Detailed Description}{5}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Function Documentation}{5}{subsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}deszyfruj()}{5}{subsubsection.2.3.2.1}%
+\contentsline {subsubsection}{\numberline {2.3.2.2}lamanie()}{6}{subsubsection.2.3.2.2}%
+\contentsline {subsubsection}{\numberline {2.3.2.3}rozmiar\_klucza()}{6}{subsubsection.2.3.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.2.4}szyfruj()}{6}{subsubsection.2.3.2.4}%
+\contentsline {section}{\numberline {2.4}SDL.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{7}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Vigenere++/sprawdz.h File Reference}{7}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Detailed Description}{8}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Function Documentation}{8}{subsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.2.1}sprawdzParametry()}{8}{subsubsection.2.5.2.1}%
+\contentsline {subsubsection}{\numberline {2.5.2.2}sprawdzPliki()}{9}{subsubsection.2.5.2.2}%
+\contentsline {section}{\numberline {2.6}sprawdz.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{9}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Vigenere++/widok.h File Reference}{10}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Detailed Description}{10}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Function Documentation}{10}{subsection.2.7.2}%
+\contentsline {subsubsection}{\numberline {2.7.2.1}wyswietl()}{10}{subsubsection.2.7.2.1}%
+\contentsline {section}{\numberline {2.8}widok.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{11}{section.2.8}%
+\contentsline {chapter}{Index}{13}{section*.12}%

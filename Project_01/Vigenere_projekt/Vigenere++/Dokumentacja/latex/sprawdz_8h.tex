@@ -1,0 +1,92 @@
+\hypertarget{sprawdz_8h}{}\doxysection{Vigenere++/sprawdz.h File Reference}
+\label{sprawdz_8h}\index{Vigenere++/sprawdz.h@{Vigenere++/sprawdz.h}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for sprawdz.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{sprawdz_8h__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{sprawdz_8h_a9baa9d4f6a9c763dc3b80cc031b1aaba}{sprawdz\+Parametry}} (int \&num\+Parametru, char $\ast$$\ast$\&parametr, std\+::fstream \&plik\+\_\+wej, std\+::fstream \&plik\+\_\+wyj, std\+::ifstream \&plik\+\_\+klucz, int \&tryb)
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdza ilosc wpisanych parametrow oraz tryb, ktory determinuje potrzebe stosowana klucza. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{sprawdz_8h_ab7b89e64aa02277558dbee26e4cb033d}{sprawdz\+Pliki}} (std\+::fstream \&plik\+\_\+wej, std\+::fstream \&plik\+\_\+wyj, std\+::ifstream \&plik\+\_\+klucz, int tryb)
+\begin{DoxyCompactList}\small\item\em Funkcja sprawdza poprawnosc odczytu plikow. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{sprawdz_8h}{sprawdz.\+h}} 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{sprawdz_8h_a9baa9d4f6a9c763dc3b80cc031b1aaba}\label{sprawdz_8h_a9baa9d4f6a9c763dc3b80cc031b1aaba}} 
+\index{sprawdz.h@{sprawdz.h}!sprawdzParametry@{sprawdzParametry}}
+\index{sprawdzParametry@{sprawdzParametry}!sprawdz.h@{sprawdz.h}}
+\doxysubsubsection{\texorpdfstring{sprawdzParametry()}{sprawdzParametry()}}
+{\footnotesize\ttfamily void sprawdz\+Parametry (\begin{DoxyParamCaption}\item[{int \&}]{num\+Parametru,  }\item[{char $\ast$$\ast$\&}]{parametr,  }\item[{std\+::fstream \&}]{plik\+\_\+wej,  }\item[{std\+::fstream \&}]{plik\+\_\+wyj,  }\item[{std\+::ifstream \&}]{plik\+\_\+klucz,  }\item[{int \&}]{tryb }\end{DoxyParamCaption})}
+
+
+
+Funkcja sprawdza ilosc wpisanych parametrow oraz tryb, ktory determinuje potrzebe stosowana klucza. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\+Parametru} & -\/ ilosc wyrazow odczytanych z wiersza polecen. \\
+\hline
+{\em parametr} & -\/ tablica wyrazow odczytywana z wiersza polecen. \\
+\hline
+{\em plik\+\_\+wej} & -\/ plik wejsciowy. \\
+\hline
+{\em plik\+\_\+wyj} & -\/ plik wyjsciowy. \\
+\hline
+{\em plik\+\_\+klucz} & -\/ plik z kluczem. \\
+\hline
+{\em tryb} & -\/ determinuje potrzebe stosowania pliku z kluczem. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=273pt]{sprawdz_8h_a9baa9d4f6a9c763dc3b80cc031b1aaba_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{sprawdz_8h_ab7b89e64aa02277558dbee26e4cb033d}\label{sprawdz_8h_ab7b89e64aa02277558dbee26e4cb033d}} 
+\index{sprawdz.h@{sprawdz.h}!sprawdzPliki@{sprawdzPliki}}
+\index{sprawdzPliki@{sprawdzPliki}!sprawdz.h@{sprawdz.h}}
+\doxysubsubsection{\texorpdfstring{sprawdzPliki()}{sprawdzPliki()}}
+{\footnotesize\ttfamily bool sprawdz\+Pliki (\begin{DoxyParamCaption}\item[{std\+::fstream \&}]{plik\+\_\+wej,  }\item[{std\+::fstream \&}]{plik\+\_\+wyj,  }\item[{std\+::ifstream \&}]{plik\+\_\+klucz,  }\item[{int}]{tryb }\end{DoxyParamCaption})}
+
+
+
+Funkcja sprawdza poprawnosc odczytu plikow. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em plik\+\_\+wej} & -\/ plik wejsciowy. \\
+\hline
+{\em plik\+\_\+wyj} & -\/ plik wyjsciowy. \\
+\hline
+{\em plik\+\_\+klucz} & -\/ plik z kluczem. \\
+\hline
+{\em tryb} & -\/ zapobiega falszywym bledom. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{sprawdz_8h_ab7b89e64aa02277558dbee26e4cb033d_cgraph}
+\end{center}
+\end{figure}

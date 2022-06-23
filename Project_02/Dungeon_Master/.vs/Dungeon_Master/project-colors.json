@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "819fdf52-cdca-4356-98fe-e8cf08232cad": {
+      "ProjectGuid": "819fdf52-cdca-4356-98fe-e8cf08232cad",
+      "DisplayName": "Dungeon_Master",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

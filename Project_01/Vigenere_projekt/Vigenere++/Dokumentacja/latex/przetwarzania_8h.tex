@@ -1,0 +1,50 @@
+\hypertarget{przetwarzania_8h}{}\doxysection{Vigenere++/przetwarzania.h File Reference}
+\label{przetwarzania_8h}\index{Vigenere++/przetwarzania.h@{Vigenere++/przetwarzania.h}}
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$limits$>$}\newline
+Include dependency graph for przetwarzania.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{przetwarzania_8h__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{przetwarzania_8h_ac7ced628d4131868d6f214703a82f631}{zapisz\+\_\+plik}} (std\+::string napis, std\+::fstream \&plik\+\_\+wyj)
+\begin{DoxyCompactList}\small\item\em Funkcja ma za zadanie przeslac zawartosc zmiennej typu string na plik wyjsciowy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{przetwarzania_8h_abdde0cfa51f30969df7e558e41e2e220}\label{przetwarzania_8h_abdde0cfa51f30969df7e558e41e2e220}} 
+std\+::string {\bfseries przetwarzanie\+\_\+klucz} (std\+::ifstream \&klucz)
+\begin{DoxyCompactList}\small\item\em Funkcja ma za zadanie przeslanie zawartosci pliku z kluczem do zmiennej typu string. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{przetwarzania_8h_abc578aa36537a65c7208c9639cfa8153}\label{przetwarzania_8h_abc578aa36537a65c7208c9639cfa8153}} 
+std\+::vector$<$ std\+::string $>$ {\bfseries przetwarzanie\+\_\+danych\+\_\+io} (std\+::fstream \&plik)
+\begin{DoxyCompactList}\small\item\em Funkcja ma za zadanie przeslanie zawartosci pliku wejsciowego i/lub wyjsciowego do wektora typu string. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{przetwarzania_8h}{przetwarzania.\+h}} 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{przetwarzania_8h_ac7ced628d4131868d6f214703a82f631}\label{przetwarzania_8h_ac7ced628d4131868d6f214703a82f631}} 
+\index{przetwarzania.h@{przetwarzania.h}!zapisz\_plik@{zapisz\_plik}}
+\index{zapisz\_plik@{zapisz\_plik}!przetwarzania.h@{przetwarzania.h}}
+\doxysubsubsection{\texorpdfstring{zapisz\_plik()}{zapisz\_plik()}}
+{\footnotesize\ttfamily void zapisz\+\_\+plik (\begin{DoxyParamCaption}\item[{std\+::string}]{napis,  }\item[{std\+::fstream \&}]{plik\+\_\+wyj }\end{DoxyParamCaption})}
+
+
+
+Funkcja ma za zadanie przeslac zawartosc zmiennej typu string na plik wyjsciowy. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em napis} & -\/ zmienna typu string, ktora zawiera caly tekst. \\
+\hline
+{\em plik\+\_\+wyj} & -\/ plik do ktorego przesylamy plik napis. \\
+\hline
+\end{DoxyParams}
